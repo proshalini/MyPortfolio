@@ -346,5 +346,46 @@ span{
     color: black;
 }
 
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .flex-box {
+        flex-direction: column;
+    }
+
+    .pic {
+        height: 200px;
+    }
+
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .box {
+        height: auto;
+    }
+
+    .preview {
+        flex-basis: 100%;
+    }
+}
+
 
 
